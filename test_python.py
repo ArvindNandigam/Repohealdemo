@@ -1,88 +1,49 @@
-import warnings
-warnings.filterwarnings("ignore")
-
-import numpy as np
 import pandas as pd
-
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.metrics import accuracy_score
-
-import torch
-import torch.nn as nn
-from torch.utils.data import Dataset, DataLoader
-
-from scipy.signal import butter
-from scipy.spatial.distance import cosine
-
-import lightgbm as lgb
+import requests
+import numpy as np
 
 
-class DummyDataset(Dataset):
-
+class DataProcessor:
     def __init__(self):
-        self.x = np.random.rand(100, 10)
-        self.y = np.random.randint(0, 2, 100)
+        self.data = []
 
-    def __len__(self):
-        return len(self.x)
+    def load_data(self):
+        df = pd.DataFrame(
+            {
+                "name": ["Alice", "Bob"],
+                "age": [25, 30]
+            }
+        )
 
-    def __getitem__(self, idx):
-        return self.x[idx], self.y[idx]
+        new_row = pd.DataFrame(
+            [{"name": "Charlie", "age": 35}]
+        )
 
+        # Deprecated in modern pandas
+        df = df.append(new_row, ignore_index=True)
 
-class SimpleNet(nn.Module):
+        self.process_data(df)
 
-    def __init__(self):
-        super().__init__()
-        self.fc1 = nn.Linear(10, 32)
-        self.fc2 = nn.Linear(32, 2)
+    def process_data(self, df):
+        self.calculate_statistics(df)
 
-    def forward(self, x):
-        x = self.fc1(x)
-        return self.fc2(x)
+    def calculate_statistics(self, df):
+        print(df.describe())
 
+        values = np.array([1, 2, 3, 4, 5])
 
-def preprocess():
-    data = pd.DataFrame(
-        np.random.rand(100, 10)
-    )
+        print(np.asscalar(values[0]))
 
-    scaler = StandardScaler()
+        self.fetch_remote_data()
 
-    return scaler.fit_transform(data)
+    def fetch_remote_data(self):
+        response = requests.get(
+            "https://jsonplaceholder.typicode.com/posts/1"
+        )
 
-
-def train():
-    X = preprocess()
-
-    y = np.random.randint(
-        0,
-        2,
-        len(X)
-    )
-
-    X_train, X_test, y_train, y_test = train_test_split(
-        X,
-        y,
-        test_size=0.2
-    )
-
-    model = lgb.LGBMClassifier()
-
-    model.fit(X_train, y_train)
-
-    preds = model.predict(X_test)
-
-    score = accuracy_score(
-        y_test,
-        preds
-    )
-
-    print(score)
-
-    return score
+        print(response.json())
 
 
 if __name__ == "__main__":
-    train()
+    processor = DataProcessor()
+    processor.load_data()
