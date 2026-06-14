@@ -1,0 +1,300 @@
+{
+  "files": {
+    "/tmp/repoheal/Repohealdemo/ArvindNandigam-Repohealdemo-9d251cb/test_python.py": {
+      "direct": [
+        "pandas",
+        "requests",
+        "numpy"
+      ],
+      "from": [],
+      "normalized": [
+        "pandas",
+        "requests",
+        "numpy"
+      ],
+      "external": [],
+      "local": [],
+      "hierarchical": [
+        {
+          "source": "import",
+          "module": "pandas",
+          "symbol": null,
+          "alias": "pd",
+          "root": "pandas",
+          "is_local": false,
+          "module_path": "pandas",
+          "leaf_path": "pandas",
+          "nodes": [
+            {
+              "path": "pandas",
+              "label": "pandas",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            }
+          ]
+        },
+        {
+          "source": "import",
+          "module": "requests",
+          "symbol": null,
+          "alias": null,
+          "root": "requests",
+          "is_local": false,
+          "module_path": "requests",
+          "leaf_path": "requests",
+          "nodes": [
+            {
+              "path": "requests",
+              "label": "requests",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            }
+          ]
+        },
+        {
+          "source": "import",
+          "module": "numpy",
+          "symbol": null,
+          "alias": "np",
+          "root": "numpy",
+          "is_local": false,
+          "module_path": "numpy",
+          "leaf_path": "numpy",
+          "nodes": [
+            {
+              "path": "numpy",
+              "label": "numpy",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "pandas",
+          "symbol": "DataFrame",
+          "alias": null,
+          "root": "pandas",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "pandas",
+          "leaf_path": "pandas.DataFrame",
+          "nodes": [
+            {
+              "path": "pandas",
+              "label": "pandas",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "pandas.DataFrame",
+              "label": "DataFrame",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "pandas",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "pandas",
+          "symbol": "concat",
+          "alias": null,
+          "root": "pandas",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "pandas",
+          "leaf_path": "pandas.concat",
+          "nodes": [
+            {
+              "path": "pandas",
+              "label": "pandas",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "pandas.concat",
+              "label": "concat",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "pandas",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "numpy",
+          "symbol": "array",
+          "alias": null,
+          "root": "numpy",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "numpy",
+          "leaf_path": "numpy.array",
+          "nodes": [
+            {
+              "path": "numpy",
+              "label": "numpy",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "numpy.array",
+              "label": "array",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "numpy",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "requests",
+          "symbol": "get",
+          "alias": null,
+          "root": "requests",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "requests",
+          "leaf_path": "requests.get",
+          "nodes": [
+            {
+              "path": "requests",
+              "label": "requests",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "requests.get",
+              "label": "get",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "requests",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "pandas",
+          "symbol": "describe",
+          "alias": null,
+          "root": "pandas",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "pandas",
+          "leaf_path": "pandas.describe",
+          "nodes": [
+            {
+              "path": "pandas",
+              "label": "pandas",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "pandas.describe",
+              "label": "describe",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "pandas",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "numpy",
+          "symbol": "asscalar",
+          "alias": null,
+          "root": "numpy",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "numpy",
+          "leaf_path": "numpy.asscalar",
+          "nodes": [
+            {
+              "path": "numpy",
+              "label": "numpy",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "numpy.asscalar",
+              "label": "asscalar",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "numpy",
+              "relationship": "EXPOSES"
+            }
+          ]
+        },
+        {
+          "source": "attribute",
+          "module": "requests",
+          "symbol": "json",
+          "alias": null,
+          "root": "requests",
+          "is_local": false,
+          "inferred": true,
+          "module_path": "requests",
+          "leaf_path": "requests.json",
+          "nodes": [
+            {
+              "path": "requests",
+              "label": "requests",
+              "kind": "Package",
+              "depth": 0,
+              "parent_path": null,
+              "relationship": null
+            },
+            {
+              "path": "requests.json",
+              "label": "json",
+              "kind": "Symbol",
+              "depth": 1,
+              "parent_path": "requests",
+              "relationship": "EXPOSES"
+            }
+          ]
+        }
+      ]
+    },
+    "/tmp/repoheal/Repohealdemo/ArvindNandigam-Repohealdemo-9d251cb/repoheal_fixes.py": {
+      "direct": [],
+      "from": [],
+      "normalized": [],
+      "external": [],
+      "local": [],
+      "hierarchical": []
+    }
+  },
+  "summary": {
+    "total_files": 2,
+    "total_python_files": 2,
+    "total_notebooks": 0,
+    "total_imports": 3,
+    "total_local_imports": 0
+  },
+  "analysis_id": "main_9d251cb_20260614T143608"
+}

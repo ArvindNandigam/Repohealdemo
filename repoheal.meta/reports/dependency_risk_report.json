@@ -1,0 +1,33 @@
+{
+  "repository": "ArvindNandigam/Repohealdemo",
+  "branch": "main",
+  "commit_sha": "9d251cb1e44dde41a6d4ddd0fecb6017167db4ee",
+  "analyzed_at": "2026-06-14T14:36:08.101800+00:00",
+  "analysis_id": "main_9d251cb_20260614T143608",
+  "issues": {
+    "missing_dependencies": [],
+    "unused_dependencies": [],
+    "missing_count": 0,
+    "unused_count": 0
+  },
+  "dependency_graph": {
+    "numpy": {
+      "version": "2.4.6",
+      "latest_version": "2.4.6",
+      "type": "third-party",
+      "status": "declared"
+    },
+    "pandas": {
+      "version": "3.0.3",
+      "latest_version": "3.0.3",
+      "type": "third-party",
+      "status": "declared"
+    },
+    "requests": {
+      "version": "2.34.2",
+      "latest_version": "2.34.2",
+      "type": "third-party",
+      "status": "declared"
+    }
+  }
+}

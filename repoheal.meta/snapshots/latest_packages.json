@@ -1,0 +1,41 @@
+{
+  "declared": {
+    "pandas": {
+      "version": "3.0.3",
+      "specifier": "==",
+      "source": "requirements.txt"
+    },
+    "requests": {
+      "version": "2.34.2",
+      "specifier": "==",
+      "source": "requirements.txt"
+    },
+    "numpy": {
+      "version": "2.4.6",
+      "specifier": "==",
+      "source": "requirements.txt"
+    }
+  },
+  "count": 3,
+  "packages": {
+    "numpy": {
+      "version": "2.4.6",
+      "latest_version": "2.4.6",
+      "type": "third-party",
+      "status": "declared"
+    },
+    "pandas": {
+      "version": "3.0.3",
+      "latest_version": "3.0.3",
+      "type": "third-party",
+      "status": "declared"
+    },
+    "requests": {
+      "version": "2.34.2",
+      "latest_version": "2.34.2",
+      "type": "third-party",
+      "status": "declared"
+    }
+  },
+  "analysis_id": "main_9d251cb_20260614T143608"
+}
