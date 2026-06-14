@@ -1,0 +1,162 @@
+{
+  "migration_id": "mig_main_9d251cb_20260614T144847",
+  "analysis_id": "main_9d251cb_20260614T144847",
+  "repository_snapshot_id": "ArvindNandigam_Repohealdemo_main_9d251cb",
+  "branch": "main",
+  "generated_from_commit": "9d251cb1e44dde41a6d4ddd0fecb6017167db4ee",
+  "generated_at": "2026-06-14T14:49:01.888579+00:00",
+  "health_score": 44,
+  "risk_score": 59,
+  "overall_risk_level": "medium",
+  "intelligence_warnings": [
+    "pandas: failed",
+    "numpy: failed",
+    "requests: failed"
+  ],
+  "report": {
+    "repository": "ArvindNandigam/Repohealdemo",
+    "generated_at": "2026-06-14T14:49:00.849635+00:00",
+    "overall_health_score": 44,
+    "overall_risk_score": 59,
+    "overall_risk_level": "medium",
+    "migration_risk_score": 59,
+    "migration_risk_level": "medium",
+    "intelligence_warnings": [
+      "pandas: failed",
+      "numpy: failed",
+      "requests: failed"
+    ],
+    "migration_intelligence_status": "degraded",
+    "intelligence_error": "pandas: failed",
+    "intelligence_source": "local_kb",
+    "executive_summary": {
+      "overall_health_score": 44,
+      "critical_findings_count": 0,
+      "deprecated_count": 0,
+      "breaking_count": 1
+    },
+    "dependency_inventory": [
+      {
+        "name": "numpy",
+        "installed_version": "2.4.6",
+        "latest_version": "2.4.6",
+        "status": "declared",
+        "type": "third-party"
+      },
+      {
+        "name": "pandas",
+        "installed_version": "3.0.3",
+        "latest_version": "3.0.3",
+        "status": "declared",
+        "type": "third-party"
+      },
+      {
+        "name": "requests",
+        "installed_version": "2.34.2",
+        "latest_version": "2.34.2",
+        "status": "declared",
+        "type": "third-party"
+      }
+    ],
+    "deprecated_apis": [],
+    "breaking_changes": [
+      {
+        "symbol": "numpy.asscalar",
+        "library": "numpy",
+        "installed_version": "2.4.6",
+        "latest_version": "2.4.6",
+        "status": "breaking",
+        "relationships": [
+          {
+            "relation": "deprecated_in_favor_of",
+            "target": "numpy.ndarray.item",
+            "status": "breaking",
+            "confidence": 0.95,
+            "evidence_links": []
+          }
+        ],
+        "version_distance": {
+          "installed": "2.4.6",
+          "deprecated_in": "1.16.0",
+          "removed_in": "1.24.0",
+          "latest": "2.4.6",
+          "major_diff": 0,
+          "minor_diff": 0,
+          "patch_diff": 0,
+          "deprecated_major_diff": null,
+          "deprecated_minor_diff": null,
+          "deprecated_patch_diff": null,
+          "removed_major_diff": null,
+          "removed_minor_diff": null,
+          "removed_patch_diff": null
+        },
+        "files_using": [
+          "/tmp/repoheal/Repohealdemo/ArvindNandigam-Repohealdemo-9d251cb/test_python.py"
+        ],
+        "functions_using": [
+          "calculate_statistics"
+        ],
+        "confidence": null,
+        "intelligence_source": "local_kb"
+      }
+    ],
+    "migration_paths": [
+      {
+        "symbol": "numpy.asscalar",
+        "target": "numpy.ndarray.item",
+        "relation": "deprecated_in_favor_of",
+        "confidence": 0.95
+      }
+    ],
+    "impact_reports": [
+      {
+        "symbol": "numpy.asscalar",
+        "affected_files": [
+          {
+            "path": "/tmp/repoheal/Repohealdemo/ArvindNandigam-Repohealdemo-9d251cb/test_python.py",
+            "lines": [
+              23
+            ]
+          }
+        ],
+        "affected_functions": [
+          {
+            "name": "calculate_statistics",
+            "file_path": "/tmp/repoheal/Repohealdemo/ArvindNandigam-Repohealdemo-9d251cb/test_python.py",
+            "line_start": 20,
+            "line_end": 24,
+            "call_chain_depth": 1
+          }
+        ],
+        "affected_classes": [],
+        "impact_breadth": 50.0,
+        "impact_depth": 1
+      }
+    ],
+    "risk_assessment": [
+      {
+        "symbol": "numpy.asscalar",
+        "risk_score": 56,
+        "risk_level": "medium",
+        "factors": {
+          "affected_file_count": 1,
+          "affected_file_percentage": 50.0,
+          "breaking_severity": "high",
+          "replacement_confidence": 0.95,
+          "version_distance_score": 0.0,
+          "repo_file_count": 2
+        }
+      }
+    ],
+    "recommended_actions": [
+      {
+        "symbol": "numpy.asscalar",
+        "priority": "high",
+        "action_type": "migrate_api",
+        "description": "Migrate numpy.asscalar with `numpy.ndarray.item` to avoid potential breakage. Impacted files: 1",
+        "confidence": 0.95
+      }
+    ],
+    "compatibility_shims": ""
+  }
+}
