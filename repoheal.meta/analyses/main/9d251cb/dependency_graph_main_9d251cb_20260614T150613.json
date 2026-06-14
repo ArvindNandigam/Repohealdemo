@@ -1,0 +1,924 @@
+{
+  "analysis_id": "main_9d251cb_20260614T150613",
+  "branch": "main",
+  "commit": "9d251cb1e44dde41a6d4ddd0fecb6017167db4ee",
+  "nodes": [
+    {
+      "data": {
+        "id": "main",
+        "label": "main",
+        "type": "repository",
+        "repo_id": "main",
+        "parent": null,
+        "usage_count": 0,
+        "module_path": "main",
+        "leaf_path": "main",
+        "view_level": 0
+      }
+    },
+    {
+      "data": {
+        "id": "file_repoheal_fixes.py",
+        "label": "repoheal_fixes.py",
+        "type": "file",
+        "path": "repoheal_fixes.py",
+        "imports": 0,
+        "repo_id": "main",
+        "parent": "main",
+        "scope": "repository",
+        "view_level": 0
+      }
+    },
+    {
+      "data": {
+        "id": "file_test_python.py",
+        "label": "test_python.py",
+        "type": "file",
+        "path": "test_python.py",
+        "imports": 10,
+        "repo_id": "main",
+        "parent": "main",
+        "scope": "repository",
+        "view_level": 0
+      }
+    },
+    {
+      "data": {
+        "id": "ns_pandas",
+        "label": "pandas",
+        "type": "package",
+        "path": "pandas",
+        "kind": "Package",
+        "depth": 0,
+        "root": "pandas",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": null,
+        "usage_count": 4,
+        "module_path": "pandas",
+        "leaf_path": "pandas",
+        "inferred": false,
+        "view_level": 0,
+        "package_type": "third-party",
+        "version": "3.0.3",
+        "latest_version": "3.0.3",
+        "status": "declared",
+        "color": "#ff9900"
+      }
+    },
+    {
+      "data": {
+        "id": "ns_requests",
+        "label": "requests",
+        "type": "package",
+        "path": "requests",
+        "kind": "Package",
+        "depth": 0,
+        "root": "requests",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": null,
+        "usage_count": 3,
+        "module_path": "requests",
+        "leaf_path": "requests",
+        "inferred": false,
+        "view_level": 0,
+        "package_type": "third-party",
+        "version": "2.34.2",
+        "latest_version": "2.34.2",
+        "status": "declared",
+        "color": "#ff9900"
+      }
+    },
+    {
+      "data": {
+        "id": "ns_numpy",
+        "label": "numpy",
+        "type": "package",
+        "path": "numpy",
+        "kind": "Package",
+        "depth": 0,
+        "root": "numpy",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": null,
+        "usage_count": 3,
+        "module_path": "numpy",
+        "leaf_path": "numpy",
+        "inferred": false,
+        "view_level": 0,
+        "package_type": "third-party",
+        "version": "2.4.6",
+        "latest_version": "2.4.6",
+        "status": "declared",
+        "color": "#ff9900"
+      }
+    },
+    {
+      "data": {
+        "id": "ns_pandas.DataFrame",
+        "label": "DataFrame",
+        "type": "symbol",
+        "path": "pandas.DataFrame",
+        "kind": "Symbol",
+        "depth": 1,
+        "root": "pandas",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": "ns_pandas",
+        "usage_count": 1,
+        "module_path": "pandas",
+        "leaf_path": "pandas.DataFrame",
+        "inferred": true,
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_pandas.concat",
+        "label": "concat",
+        "type": "symbol",
+        "path": "pandas.concat",
+        "kind": "Symbol",
+        "depth": 1,
+        "root": "pandas",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": "ns_pandas",
+        "usage_count": 1,
+        "module_path": "pandas",
+        "leaf_path": "pandas.concat",
+        "inferred": true,
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_numpy.array",
+        "label": "array",
+        "type": "symbol",
+        "path": "numpy.array",
+        "kind": "Symbol",
+        "depth": 1,
+        "root": "numpy",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": "ns_numpy",
+        "usage_count": 1,
+        "module_path": "numpy",
+        "leaf_path": "numpy.array",
+        "inferred": true,
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_requests.get",
+        "label": "get",
+        "type": "symbol",
+        "path": "requests.get",
+        "kind": "Symbol",
+        "depth": 1,
+        "root": "requests",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": "ns_requests",
+        "usage_count": 1,
+        "module_path": "requests",
+        "leaf_path": "requests.get",
+        "inferred": true,
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_pandas.describe",
+        "label": "describe",
+        "type": "symbol",
+        "path": "pandas.describe",
+        "kind": "Symbol",
+        "depth": 1,
+        "root": "pandas",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": "ns_pandas",
+        "usage_count": 1,
+        "module_path": "pandas",
+        "leaf_path": "pandas.describe",
+        "inferred": true,
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_numpy.asscalar",
+        "label": "asscalar",
+        "type": "symbol",
+        "path": "numpy.asscalar",
+        "kind": "Symbol",
+        "depth": 1,
+        "root": "numpy",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": "ns_numpy",
+        "usage_count": 1,
+        "module_path": "numpy",
+        "leaf_path": "numpy.asscalar",
+        "inferred": true,
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_requests.json",
+        "label": "json",
+        "type": "symbol",
+        "path": "requests.json",
+        "kind": "Symbol",
+        "depth": 1,
+        "root": "requests",
+        "scope": "external",
+        "repo_id": "main",
+        "parent": "ns_requests",
+        "usage_count": 1,
+        "module_path": "requests",
+        "leaf_path": "requests.json",
+        "inferred": true,
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py___init__",
+        "label": "__init__",
+        "type": "function",
+        "path": "test_python.py",
+        "qualified_name": "__init__",
+        "line_start": 8,
+        "line_end": 9,
+        "is_async": false,
+        "repo_id": "main",
+        "parent": "file_test_python.py",
+        "usage_count": 0,
+        "libraries_used": [],
+        "module_path": "__init__",
+        "leaf_path": "__init__",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_load_data",
+        "label": "load_data",
+        "type": "function",
+        "path": "test_python.py",
+        "qualified_name": "load_data",
+        "line_start": 11,
+        "line_end": 15,
+        "is_async": false,
+        "repo_id": "main",
+        "parent": "file_test_python.py",
+        "usage_count": 2,
+        "libraries_used": [
+          "pandas",
+          "self"
+        ],
+        "module_path": "load_data",
+        "leaf_path": "load_data",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_process_data",
+        "label": "process_data",
+        "type": "function",
+        "path": "test_python.py",
+        "qualified_name": "process_data",
+        "line_start": 17,
+        "line_end": 18,
+        "is_async": false,
+        "repo_id": "main",
+        "parent": "file_test_python.py",
+        "usage_count": 1,
+        "libraries_used": [
+          "self"
+        ],
+        "module_path": "process_data",
+        "leaf_path": "process_data",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_calculate_statistics",
+        "label": "calculate_statistics",
+        "type": "function",
+        "path": "test_python.py",
+        "qualified_name": "calculate_statistics",
+        "line_start": 20,
+        "line_end": 24,
+        "is_async": false,
+        "repo_id": "main",
+        "parent": "file_test_python.py",
+        "usage_count": 4,
+        "libraries_used": [
+          "print",
+          "pandas",
+          "numpy",
+          "self"
+        ],
+        "module_path": "calculate_statistics",
+        "leaf_path": "calculate_statistics",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_fetch_remote_data",
+        "label": "fetch_remote_data",
+        "type": "function",
+        "path": "test_python.py",
+        "qualified_name": "fetch_remote_data",
+        "line_start": 26,
+        "line_end": 28,
+        "is_async": false,
+        "repo_id": "main",
+        "parent": "file_test_python.py",
+        "usage_count": 2,
+        "libraries_used": [
+          "requests",
+          "print"
+        ],
+        "module_path": "fetch_remote_data",
+        "leaf_path": "fetch_remote_data",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "class_test_python.py_DataProcessor",
+        "label": "DataProcessor",
+        "type": "class",
+        "path": "test_python.py",
+        "qualified_name": "DataProcessor",
+        "line_start": 6,
+        "line_end": 28,
+        "bases": [],
+        "repo_id": "main",
+        "parent": "file_test_python.py",
+        "usage_count": 0,
+        "module_path": "DataProcessor",
+        "leaf_path": "DataProcessor",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_pandas_pandas.DataFrame_test_python.py_12",
+        "label": "pandas.DataFrame",
+        "type": "api",
+        "package": "pandas",
+        "path": "test_python.py",
+        "line": 12,
+        "repo_id": "main",
+        "parent": "func_test_python.py_load_data",
+        "usage_count": 1,
+        "module_path": "pandas",
+        "leaf_path": "pandas.DataFrame",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_pandas_pandas.DataFrame_test_python.py_13",
+        "label": "pandas.DataFrame",
+        "type": "api",
+        "package": "pandas",
+        "path": "test_python.py",
+        "line": 13,
+        "repo_id": "main",
+        "parent": "func_test_python.py_load_data",
+        "usage_count": 1,
+        "module_path": "pandas",
+        "leaf_path": "pandas.DataFrame",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_pandas_pandas.concat_test_python.py_14",
+        "label": "pandas.concat",
+        "type": "api",
+        "package": "pandas",
+        "path": "test_python.py",
+        "line": 14,
+        "repo_id": "main",
+        "parent": "func_test_python.py_load_data",
+        "usage_count": 1,
+        "module_path": "pandas",
+        "leaf_path": "pandas.concat",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_self_self.process_data_test_python.py_15",
+        "label": "self.process_data",
+        "type": "api",
+        "package": "self",
+        "path": "test_python.py",
+        "line": 15,
+        "repo_id": "main",
+        "parent": "func_test_python.py_load_data",
+        "usage_count": 1,
+        "module_path": "self",
+        "leaf_path": "self.process_data",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_self_self.calculate_statistics_test_python.py_18",
+        "label": "self.calculate_statistics",
+        "type": "api",
+        "package": "self",
+        "path": "test_python.py",
+        "line": 18,
+        "repo_id": "main",
+        "parent": "func_test_python.py_process_data",
+        "usage_count": 1,
+        "module_path": "self",
+        "leaf_path": "self.calculate_statistics",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_print_print_test_python.py_21",
+        "label": "print",
+        "type": "api",
+        "package": "print",
+        "path": "test_python.py",
+        "line": 21,
+        "repo_id": "main",
+        "parent": "func_test_python.py_calculate_statistics",
+        "usage_count": 1,
+        "module_path": "print",
+        "leaf_path": "print",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_pandas_pandas.describe_test_python.py_21",
+        "label": "pandas.describe",
+        "type": "api",
+        "package": "pandas",
+        "path": "test_python.py",
+        "line": 21,
+        "repo_id": "main",
+        "parent": "func_test_python.py_calculate_statistics",
+        "usage_count": 1,
+        "module_path": "pandas",
+        "leaf_path": "pandas.describe",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_numpy_numpy.array_test_python.py_22",
+        "label": "numpy.array",
+        "type": "api",
+        "package": "numpy",
+        "path": "test_python.py",
+        "line": 22,
+        "repo_id": "main",
+        "parent": "func_test_python.py_calculate_statistics",
+        "usage_count": 1,
+        "module_path": "numpy",
+        "leaf_path": "numpy.array",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_print_print_test_python.py_23",
+        "label": "print",
+        "type": "api",
+        "package": "print",
+        "path": "test_python.py",
+        "line": 23,
+        "repo_id": "main",
+        "parent": "func_test_python.py_calculate_statistics",
+        "usage_count": 1,
+        "module_path": "print",
+        "leaf_path": "print",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_numpy_numpy.asscalar_test_python.py_23",
+        "label": "numpy.asscalar",
+        "type": "api",
+        "package": "numpy",
+        "path": "test_python.py",
+        "line": 23,
+        "repo_id": "main",
+        "parent": "func_test_python.py_calculate_statistics",
+        "usage_count": 1,
+        "module_path": "numpy",
+        "leaf_path": "numpy.asscalar",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_self_self.fetch_remote_data_test_python.py_24",
+        "label": "self.fetch_remote_data",
+        "type": "api",
+        "package": "self",
+        "path": "test_python.py",
+        "line": 24,
+        "repo_id": "main",
+        "parent": "func_test_python.py_calculate_statistics",
+        "usage_count": 1,
+        "module_path": "self",
+        "leaf_path": "self.fetch_remote_data",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_requests_requests.get_test_python.py_27",
+        "label": "requests.get",
+        "type": "api",
+        "package": "requests",
+        "path": "test_python.py",
+        "line": 27,
+        "repo_id": "main",
+        "parent": "func_test_python.py_fetch_remote_data",
+        "usage_count": 1,
+        "module_path": "requests",
+        "leaf_path": "requests.get",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_print_print_test_python.py_28",
+        "label": "print",
+        "type": "api",
+        "package": "print",
+        "path": "test_python.py",
+        "line": 28,
+        "repo_id": "main",
+        "parent": "func_test_python.py_fetch_remote_data",
+        "usage_count": 1,
+        "module_path": "print",
+        "leaf_path": "print",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_requests_requests.json_test_python.py_28",
+        "label": "requests.json",
+        "type": "api",
+        "package": "requests",
+        "path": "test_python.py",
+        "line": 28,
+        "repo_id": "main",
+        "parent": "func_test_python.py_fetch_remote_data",
+        "usage_count": 1,
+        "module_path": "requests",
+        "leaf_path": "requests.json",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_dataprocessor_DataProcessor_test_python.py_32",
+        "label": "DataProcessor",
+        "type": "api",
+        "package": "dataprocessor",
+        "path": "test_python.py",
+        "line": 32,
+        "repo_id": "main",
+        "parent": null,
+        "usage_count": 1,
+        "module_path": "dataprocessor",
+        "leaf_path": "DataProcessor",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "api_processor_processor.load_data_test_python.py_33",
+        "label": "processor.load_data",
+        "type": "api",
+        "package": "processor",
+        "path": "test_python.py",
+        "line": 33,
+        "repo_id": "main",
+        "parent": null,
+        "usage_count": 1,
+        "module_path": "processor",
+        "leaf_path": "processor.load_data",
+        "view_level": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "main_contains_repoheal_fixes.py",
+        "source": "main",
+        "target": "file_repoheal_fixes.py",
+        "relationship": "CONTAINS",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "main_contains_test_python.py",
+        "source": "main",
+        "target": "file_test_python.py",
+        "relationship": "CONTAINS",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "file_test_python.py_imports_ns_pandas",
+        "source": "file_test_python.py",
+        "target": "ns_pandas",
+        "relationship": "IMPORTS",
+        "view_level": 0
+      }
+    },
+    {
+      "data": {
+        "id": "file_test_python.py_imports_ns_requests",
+        "source": "file_test_python.py",
+        "target": "ns_requests",
+        "relationship": "IMPORTS",
+        "view_level": 0
+      }
+    },
+    {
+      "data": {
+        "id": "file_test_python.py_imports_ns_numpy",
+        "source": "file_test_python.py",
+        "target": "ns_numpy",
+        "relationship": "IMPORTS",
+        "view_level": 0
+      }
+    },
+    {
+      "data": {
+        "id": "ns_pandas_exposes_ns_pandas.DataFrame",
+        "source": "ns_pandas",
+        "target": "ns_pandas.DataFrame",
+        "relationship": "EXPOSES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_pandas_exposes_ns_pandas.concat",
+        "source": "ns_pandas",
+        "target": "ns_pandas.concat",
+        "relationship": "EXPOSES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_numpy_exposes_ns_numpy.array",
+        "source": "ns_numpy",
+        "target": "ns_numpy.array",
+        "relationship": "EXPOSES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_requests_exposes_ns_requests.get",
+        "source": "ns_requests",
+        "target": "ns_requests.get",
+        "relationship": "EXPOSES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_pandas_exposes_ns_pandas.describe",
+        "source": "ns_pandas",
+        "target": "ns_pandas.describe",
+        "relationship": "EXPOSES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_numpy_exposes_ns_numpy.asscalar",
+        "source": "ns_numpy",
+        "target": "ns_numpy.asscalar",
+        "relationship": "EXPOSES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "ns_requests_exposes_ns_requests.json",
+        "source": "ns_requests",
+        "target": "ns_requests.json",
+        "relationship": "EXPOSES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "test_python.py_defines___init__",
+        "source": "file_test_python.py",
+        "target": "func_test_python.py___init__",
+        "relationship": "DEFINES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "test_python.py_defines_load_data",
+        "source": "file_test_python.py",
+        "target": "func_test_python.py_load_data",
+        "relationship": "DEFINES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "test_python.py_defines_process_data",
+        "source": "file_test_python.py",
+        "target": "func_test_python.py_process_data",
+        "relationship": "DEFINES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "test_python.py_defines_calculate_statistics",
+        "source": "file_test_python.py",
+        "target": "func_test_python.py_calculate_statistics",
+        "relationship": "DEFINES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "test_python.py_defines_fetch_remote_data",
+        "source": "file_test_python.py",
+        "target": "func_test_python.py_fetch_remote_data",
+        "relationship": "DEFINES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "test_python.py_defines_class_DataProcessor",
+        "source": "file_test_python.py",
+        "target": "class_test_python.py_DataProcessor",
+        "relationship": "DEFINES",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_load_data_uses_api_pandas_pandas.DataFrame_test_python.py_12",
+        "source": "func_test_python.py_load_data",
+        "target": "api_pandas_pandas.DataFrame_test_python.py_12",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_load_data_uses_api_pandas_pandas.DataFrame_test_python.py_13",
+        "source": "func_test_python.py_load_data",
+        "target": "api_pandas_pandas.DataFrame_test_python.py_13",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_load_data_uses_api_pandas_pandas.concat_test_python.py_14",
+        "source": "func_test_python.py_load_data",
+        "target": "api_pandas_pandas.concat_test_python.py_14",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_load_data_uses_api_self_self.process_data_test_python.py_15",
+        "source": "func_test_python.py_load_data",
+        "target": "api_self_self.process_data_test_python.py_15",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_process_data_uses_api_self_self.calculate_statistics_test_python.py_18",
+        "source": "func_test_python.py_process_data",
+        "target": "api_self_self.calculate_statistics_test_python.py_18",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_calculate_statistics_uses_api_print_print_test_python.py_21",
+        "source": "func_test_python.py_calculate_statistics",
+        "target": "api_print_print_test_python.py_21",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_calculate_statistics_uses_api_pandas_pandas.describe_test_python.py_21",
+        "source": "func_test_python.py_calculate_statistics",
+        "target": "api_pandas_pandas.describe_test_python.py_21",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_calculate_statistics_uses_api_numpy_numpy.array_test_python.py_22",
+        "source": "func_test_python.py_calculate_statistics",
+        "target": "api_numpy_numpy.array_test_python.py_22",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_calculate_statistics_uses_api_print_print_test_python.py_23",
+        "source": "func_test_python.py_calculate_statistics",
+        "target": "api_print_print_test_python.py_23",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_calculate_statistics_uses_api_numpy_numpy.asscalar_test_python.py_23",
+        "source": "func_test_python.py_calculate_statistics",
+        "target": "api_numpy_numpy.asscalar_test_python.py_23",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_calculate_statistics_uses_api_self_self.fetch_remote_data_test_python.py_24",
+        "source": "func_test_python.py_calculate_statistics",
+        "target": "api_self_self.fetch_remote_data_test_python.py_24",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_fetch_remote_data_uses_api_requests_requests.get_test_python.py_27",
+        "source": "func_test_python.py_fetch_remote_data",
+        "target": "api_requests_requests.get_test_python.py_27",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_fetch_remote_data_uses_api_print_print_test_python.py_28",
+        "source": "func_test_python.py_fetch_remote_data",
+        "target": "api_print_print_test_python.py_28",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    },
+    {
+      "data": {
+        "id": "func_test_python.py_fetch_remote_data_uses_api_requests_requests.json_test_python.py_28",
+        "source": "func_test_python.py_fetch_remote_data",
+        "target": "api_requests_requests.json_test_python.py_28",
+        "relationship": "USES_API",
+        "view_level": 1
+      }
+    }
+  ],
+  "statistics": {}
+}
