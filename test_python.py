@@ -11,7 +11,7 @@ class DataProcessor:
     def load_data(self):
         df = pd.DataFrame({'name': ['Alice', 'Bob'], 'age': [25, 30]})
         new_row = pd.DataFrame([{'name': 'Charlie', 'age': 35}])
-        df = df.append(new_row, ignore_index=True)
+        df = pd.concat(new_row, ignore_index=True)
         self.process_data(df)
 
     def process_data(self, df):
@@ -20,7 +20,7 @@ class DataProcessor:
     def calculate_statistics(self, df):
         print(df.describe())
         values = np.array([1, 2, 3, 4, 5])
-        print(np.ndarray.item(values[0]))
+        print(np.asscalar(values[0]))
         self.fetch_remote_data()
 
     def fetch_remote_data(self):
