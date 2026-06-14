@@ -20,7 +20,7 @@ class DataProcessor:
     def calculate_statistics(self, df):
         print(df.describe())
         values = np.array([1, 2, 3, 4, 5])
-        print(np.asscalar(values[0]))
+        print(values[0].item())
         self.fetch_remote_data()
 
     def fetch_remote_data(self):
