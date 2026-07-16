@@ -1,0 +1,67 @@
+{
+  "migration_id": "mig_main_8093ef6_20260716T145247",
+  "analysis_id": "main_8093ef6_20260716T145247",
+  "repository_snapshot_id": "ArvindNandigam_Repohealdemo_main_8093ef6",
+  "branch": "main",
+  "generated_from_commit": "8093ef65e5c5cd3eabb93d8bb52f53eac27b0662",
+  "generated_at": "2026-07-16T15:03:13.257886+00:00",
+  "health_score": 100,
+  "risk_score": 0,
+  "overall_risk_level": "low",
+  "intelligence_warnings": [
+    "No symbol intelligence or version-gap signals were produced \u2014 check Restricted Webtool connectivity and repository fingerprints.",
+    "Symbol intelligence returned no deprecation data \u2014 version-gap and pattern-based checks were applied as fallback."
+  ],
+  "report": {
+    "repository": "ArvindNandigam/Repohealdemo",
+    "generated_at": "2026-07-16T15:03:11.930020+00:00",
+    "overall_health_score": 100,
+    "overall_risk_score": 0,
+    "overall_risk_level": "low",
+    "migration_risk_score": 0,
+    "migration_risk_level": "low",
+    "intelligence_warnings": [
+      "No symbol intelligence or version-gap signals were produced \u2014 check Restricted Webtool connectivity and repository fingerprints.",
+      "Symbol intelligence returned no deprecation data \u2014 version-gap and pattern-based checks were applied as fallback."
+    ],
+    "migration_intelligence_status": "failed",
+    "intelligence_error": "No symbol intelligence or version-gap signals were produced \u2014 check Restricted Webtool connectivity and repository fingerprints.",
+    "intelligence_source": "none",
+    "executive_summary": {
+      "overall_health_score": 100,
+      "critical_findings_count": 0,
+      "deprecated_count": -1,
+      "breaking_count": 0
+    },
+    "dependency_inventory": [
+      {
+        "name": "numpy",
+        "installed_version": "2.4.6",
+        "latest_version": "2.5.1",
+        "status": "declared",
+        "type": "third-party"
+      },
+      {
+        "name": "pandas",
+        "installed_version": "3.0.3",
+        "latest_version": "3.0.3",
+        "status": "declared",
+        "type": "third-party"
+      },
+      {
+        "name": "requests",
+        "installed_version": "2.34.2",
+        "latest_version": "2.34.2",
+        "status": "declared",
+        "type": "third-party"
+      }
+    ],
+    "deprecated_apis": [],
+    "breaking_changes": [],
+    "migration_paths": [],
+    "impact_reports": [],
+    "risk_assessment": [],
+    "recommended_actions": [],
+    "compatibility_shims": ""
+  }
+}
