@@ -6,11 +6,11 @@
   "status": "active",
   "artifacts": [],
   "last_analysis": null,
-  "last_health_refresh": "2026-07-16T15:03:13.257886+00:00",
+  "last_health_refresh": "2026-07-16T15:03:19.928534+00:00",
   "last_commit_analyzed": null,
   "latest_analysis": "repoheal.meta/analyses/main/8093ef6/analysis_main_8093ef6_20260716T145247.json",
   "latest_report": null,
-  "latest_migration": "repoheal.meta/analyses/main/9d251cb/migration_report_main_9d251cb_20260614T154134.md",
+  "latest_migration": "repoheal.meta/analyses/main/8093ef6/migration_report_main_8093ef6_20260716T145247.md",
   "analyses": [
     {
       "analysis_id": "main_9d251cb_20260614T154134",
@@ -57,7 +57,7 @@
     },
     {
       "analysis_id": "main_8093ef6_20260716T145247",
-      "timestamp": "2026-07-16T15:03:13.257886+00:00",
+      "timestamp": "2026-07-16T15:03:19.928534+00:00",
       "path": "repoheal.meta/analyses/main/8093ef6/health_report_main_8093ef6_20260716T145247.json"
     }
   ],
@@ -108,6 +108,14 @@
       "overall_risk_level": "medium",
       "status": "approved",
       "approved_at": "2026-06-14T16:47:58.850038+00:00"
+    },
+    {
+      "migration_id": "mig_main_8093ef6_20260716T145247",
+      "analysis_id": "main_8093ef6_20260716T145247",
+      "timestamp": "2026-07-16T15:03:19.928534+00:00",
+      "path": "repoheal.meta/analyses/main/8093ef6/migration_report_main_8093ef6_20260716T145247.md",
+      "risk_score": 0,
+      "overall_risk_level": "low"
     }
   ],
   "default_branch": "main",
