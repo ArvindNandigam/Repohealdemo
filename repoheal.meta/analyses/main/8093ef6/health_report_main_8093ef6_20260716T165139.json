@@ -1,0 +1,608 @@
+{
+  "migration_id": "mig_main_8093ef6_20260716T165139",
+  "analysis_id": "main_8093ef6_20260716T165139",
+  "repository_snapshot_id": "ArvindNandigam_Repohealdemo_main_8093ef6",
+  "branch": "main",
+  "generated_from_commit": "8093ef65e5c5cd3eabb93d8bb52f53eac27b0662",
+  "generated_at": "2026-07-16T16:52:24.470071+00:00",
+  "health_score": 58,
+  "risk_score": 61,
+  "overall_risk_level": "medium",
+  "intelligence_warnings": [],
+  "report": {
+    "repository": "ArvindNandigam/Repohealdemo",
+    "generated_at": "2026-07-16T16:52:23.191762+00:00",
+    "overall_health_score": 58,
+    "overall_risk_score": 61,
+    "overall_risk_level": "medium",
+    "migration_risk_score": 61,
+    "migration_risk_level": "medium",
+    "intelligence_warnings": [],
+    "migration_intelligence_status": "success",
+    "intelligence_error": "",
+    "intelligence_source": "unknown",
+    "executive_summary": {
+      "overall_health_score": 58,
+      "critical_findings_count": 0,
+      "deprecated_count": 6,
+      "breaking_count": 0
+    },
+    "dependency_inventory": [
+      {
+        "name": "numpy",
+        "installed_version": "2.4.6",
+        "latest_version": "2.5.1",
+        "status": "declared",
+        "type": "third-party"
+      },
+      {
+        "name": "pandas",
+        "installed_version": "3.0.3",
+        "latest_version": "3.0.3",
+        "status": "declared",
+        "type": "third-party"
+      },
+      {
+        "name": "requests",
+        "installed_version": "2.34.2",
+        "latest_version": "2.34.2",
+        "status": "declared",
+        "type": "third-party"
+      }
+    ],
+    "deprecated_apis": [
+      {
+        "symbol": "pandas.DataFrame",
+        "library": "pandas",
+        "installed_version": "3.0.3",
+        "latest_version": "3.0.3",
+        "status": "deprecated",
+        "relationships": [
+          {
+            "relation": "replaced_by",
+            "target": "polars.DataFrame",
+            "status": "candidate",
+            "confidence": 1.0,
+            "evidence_links": []
+          }
+        ],
+        "version_distance": {
+          "installed": "3.0.3",
+          "deprecated_in": null,
+          "removed_in": null,
+          "latest": "3.0.3",
+          "major_diff": 0,
+          "minor_diff": 0,
+          "patch_diff": 0,
+          "deprecated_major_diff": null,
+          "deprecated_minor_diff": null,
+          "deprecated_patch_diff": null,
+          "removed_major_diff": null,
+          "removed_minor_diff": null,
+          "removed_patch_diff": null
+        },
+        "files_using": [
+          "test_python.py"
+        ],
+        "functions_using": [
+          "load_data"
+        ],
+        "confidence": null,
+        "intelligence_source": "webtool"
+      },
+      {
+        "symbol": "pandas.describe",
+        "library": "pandas",
+        "installed_version": "3.0.3",
+        "latest_version": "3.0.3",
+        "status": "deprecated",
+        "relationships": [
+          {
+            "relation": "replaced_by",
+            "target": "modin.pandas.DataFrame.describe",
+            "status": "candidate",
+            "confidence": 1.0,
+            "evidence_links": []
+          }
+        ],
+        "version_distance": {
+          "installed": "3.0.3",
+          "deprecated_in": null,
+          "removed_in": null,
+          "latest": "3.0.3",
+          "major_diff": 0,
+          "minor_diff": 0,
+          "patch_diff": 0,
+          "deprecated_major_diff": null,
+          "deprecated_minor_diff": null,
+          "deprecated_patch_diff": null,
+          "removed_major_diff": null,
+          "removed_minor_diff": null,
+          "removed_patch_diff": null
+        },
+        "files_using": [
+          "test_python.py"
+        ],
+        "functions_using": [
+          "calculate_statistics"
+        ],
+        "confidence": null,
+        "intelligence_source": "webtool"
+      },
+      {
+        "symbol": "numpy.array",
+        "library": "numpy",
+        "installed_version": "2.4.6",
+        "latest_version": "2.4.6",
+        "status": "deprecated",
+        "relationships": [
+          {
+            "relation": "replaced_by",
+            "target": "numpy.asarray",
+            "status": "candidate",
+            "confidence": 1.0,
+            "evidence_links": []
+          },
+          {
+            "relation": "replaced_by",
+            "target": "numpy-ts.NDArray",
+            "status": "candidate",
+            "confidence": 1.0,
+            "evidence_links": []
+          }
+        ],
+        "version_distance": {
+          "installed": "2.4.6",
+          "deprecated_in": null,
+          "removed_in": null,
+          "latest": "2.4.6",
+          "major_diff": 0,
+          "minor_diff": 0,
+          "patch_diff": 0,
+          "deprecated_major_diff": null,
+          "deprecated_minor_diff": null,
+          "deprecated_patch_diff": null,
+          "removed_major_diff": null,
+          "removed_minor_diff": null,
+          "removed_patch_diff": null
+        },
+        "files_using": [
+          "test_python.py"
+        ],
+        "functions_using": [
+          "calculate_statistics"
+        ],
+        "confidence": null,
+        "intelligence_source": "webtool"
+      },
+      {
+        "symbol": "numpy.item",
+        "library": "numpy",
+        "installed_version": "2.4.6",
+        "latest_version": "2.4.6",
+        "status": "deprecated",
+        "relationships": [
+          {
+            "relation": "replaced_by",
+            "target": "np.item",
+            "status": "candidate",
+            "confidence": 0.0,
+            "evidence_links": []
+          }
+        ],
+        "version_distance": {
+          "installed": "2.4.6",
+          "deprecated_in": null,
+          "removed_in": null,
+          "latest": "2.4.6",
+          "major_diff": 0,
+          "minor_diff": 0,
+          "patch_diff": 0,
+          "deprecated_major_diff": null,
+          "deprecated_minor_diff": null,
+          "deprecated_patch_diff": null,
+          "removed_major_diff": null,
+          "removed_minor_diff": null,
+          "removed_patch_diff": null
+        },
+        "files_using": [
+          "test_python.py"
+        ],
+        "functions_using": [
+          "calculate_statistics"
+        ],
+        "confidence": null,
+        "intelligence_source": "webtool"
+      },
+      {
+        "symbol": "requests.get",
+        "library": "requests",
+        "installed_version": "2.34.2",
+        "latest_version": "2.34.2",
+        "status": "deprecated",
+        "relationships": [
+          {
+            "relation": "replaced_by",
+            "target": "responses.get",
+            "status": "candidate",
+            "confidence": 1.0,
+            "evidence_links": []
+          }
+        ],
+        "version_distance": {
+          "installed": "2.34.2",
+          "deprecated_in": null,
+          "removed_in": null,
+          "latest": "2.34.2",
+          "major_diff": 0,
+          "minor_diff": 0,
+          "patch_diff": 0,
+          "deprecated_major_diff": null,
+          "deprecated_minor_diff": null,
+          "deprecated_patch_diff": null,
+          "removed_major_diff": null,
+          "removed_minor_diff": null,
+          "removed_patch_diff": null
+        },
+        "files_using": [
+          "test_python.py"
+        ],
+        "functions_using": [
+          "fetch_remote_data"
+        ],
+        "confidence": null,
+        "intelligence_source": "webtool"
+      },
+      {
+        "symbol": "requests.json",
+        "library": "requests",
+        "installed_version": "2.34.2",
+        "latest_version": "2.34.2",
+        "status": "deprecated",
+        "relationships": [
+          {
+            "relation": "deprecated_in_favor_of",
+            "target": "requests.Response.json",
+            "status": "candidate",
+            "confidence": 1.0,
+            "evidence_links": []
+          }
+        ],
+        "version_distance": {
+          "installed": "2.34.2",
+          "deprecated_in": null,
+          "removed_in": null,
+          "latest": "2.34.2",
+          "major_diff": 0,
+          "minor_diff": 0,
+          "patch_diff": 0,
+          "deprecated_major_diff": null,
+          "deprecated_minor_diff": null,
+          "deprecated_patch_diff": null,
+          "removed_major_diff": null,
+          "removed_minor_diff": null,
+          "removed_patch_diff": null
+        },
+        "files_using": [
+          "test_python.py"
+        ],
+        "functions_using": [
+          "fetch_remote_data"
+        ],
+        "confidence": null,
+        "intelligence_source": "webtool"
+      }
+    ],
+    "breaking_changes": [],
+    "migration_paths": [
+      {
+        "symbol": "pandas.DataFrame",
+        "target": "polars.DataFrame",
+        "relation": "replaced_by",
+        "confidence": 1.0
+      },
+      {
+        "symbol": "pandas.describe",
+        "target": "modin.pandas.DataFrame.describe",
+        "relation": "replaced_by",
+        "confidence": 1.0
+      },
+      {
+        "symbol": "numpy.array",
+        "target": "numpy.asarray",
+        "relation": "replaced_by",
+        "confidence": 1.0
+      },
+      {
+        "symbol": "numpy.array",
+        "target": "numpy-ts.NDArray",
+        "relation": "replaced_by",
+        "confidence": 1.0
+      },
+      {
+        "symbol": "numpy.item",
+        "target": "np.item",
+        "relation": "replaced_by",
+        "confidence": 0.0
+      },
+      {
+        "symbol": "requests.get",
+        "target": "responses.get",
+        "relation": "replaced_by",
+        "confidence": 1.0
+      },
+      {
+        "symbol": "requests.json",
+        "target": "requests.Response.json",
+        "relation": "deprecated_in_favor_of",
+        "confidence": 1.0
+      }
+    ],
+    "impact_reports": [
+      {
+        "symbol": "pandas.DataFrame",
+        "affected_files": [
+          {
+            "path": "test_python.py",
+            "lines": [
+              12,
+              13
+            ]
+          }
+        ],
+        "affected_functions": [
+          {
+            "name": "load_data",
+            "file_path": "test_python.py",
+            "line_start": 11,
+            "line_end": 15,
+            "call_chain_depth": 1
+          }
+        ],
+        "affected_classes": [],
+        "impact_breadth": 50.0,
+        "impact_depth": 1
+      },
+      {
+        "symbol": "pandas.describe",
+        "affected_files": [
+          {
+            "path": "test_python.py",
+            "lines": [
+              21
+            ]
+          }
+        ],
+        "affected_functions": [
+          {
+            "name": "calculate_statistics",
+            "file_path": "test_python.py",
+            "line_start": 20,
+            "line_end": 24,
+            "call_chain_depth": 1
+          }
+        ],
+        "affected_classes": [],
+        "impact_breadth": 50.0,
+        "impact_depth": 1
+      },
+      {
+        "symbol": "numpy.array",
+        "affected_files": [
+          {
+            "path": "test_python.py",
+            "lines": [
+              22
+            ]
+          }
+        ],
+        "affected_functions": [
+          {
+            "name": "calculate_statistics",
+            "file_path": "test_python.py",
+            "line_start": 20,
+            "line_end": 24,
+            "call_chain_depth": 1
+          }
+        ],
+        "affected_classes": [],
+        "impact_breadth": 50.0,
+        "impact_depth": 1
+      },
+      {
+        "symbol": "numpy.item",
+        "affected_files": [
+          {
+            "path": "test_python.py",
+            "lines": [
+              23
+            ]
+          }
+        ],
+        "affected_functions": [
+          {
+            "name": "calculate_statistics",
+            "file_path": "test_python.py",
+            "line_start": 20,
+            "line_end": 24,
+            "call_chain_depth": 1
+          }
+        ],
+        "affected_classes": [],
+        "impact_breadth": 50.0,
+        "impact_depth": 1
+      },
+      {
+        "symbol": "requests.get",
+        "affected_files": [
+          {
+            "path": "test_python.py",
+            "lines": [
+              27
+            ]
+          }
+        ],
+        "affected_functions": [
+          {
+            "name": "fetch_remote_data",
+            "file_path": "test_python.py",
+            "line_start": 26,
+            "line_end": 28,
+            "call_chain_depth": 1
+          }
+        ],
+        "affected_classes": [],
+        "impact_breadth": 50.0,
+        "impact_depth": 1
+      },
+      {
+        "symbol": "requests.json",
+        "affected_files": [
+          {
+            "path": "test_python.py",
+            "lines": [
+              28
+            ]
+          }
+        ],
+        "affected_functions": [
+          {
+            "name": "fetch_remote_data",
+            "file_path": "test_python.py",
+            "line_start": 26,
+            "line_end": 28,
+            "call_chain_depth": 1
+          }
+        ],
+        "affected_classes": [],
+        "impact_breadth": 50.0,
+        "impact_depth": 1
+      }
+    ],
+    "risk_assessment": [
+      {
+        "symbol": "pandas.DataFrame",
+        "risk_score": 38,
+        "risk_level": "low",
+        "factors": {
+          "affected_file_count": 1,
+          "affected_file_percentage": 50.0,
+          "breaking_severity": "low",
+          "replacement_confidence": 1.0,
+          "version_distance_score": 0.0,
+          "repo_file_count": 2
+        }
+      },
+      {
+        "symbol": "pandas.describe",
+        "risk_score": 38,
+        "risk_level": "low",
+        "factors": {
+          "affected_file_count": 1,
+          "affected_file_percentage": 50.0,
+          "breaking_severity": "low",
+          "replacement_confidence": 1.0,
+          "version_distance_score": 0.0,
+          "repo_file_count": 2
+        }
+      },
+      {
+        "symbol": "numpy.array",
+        "risk_score": 38,
+        "risk_level": "low",
+        "factors": {
+          "affected_file_count": 1,
+          "affected_file_percentage": 50.0,
+          "breaking_severity": "low",
+          "replacement_confidence": 1.0,
+          "version_distance_score": 0.0,
+          "repo_file_count": 2
+        }
+      },
+      {
+        "symbol": "numpy.item",
+        "risk_score": 58,
+        "risk_level": "medium",
+        "factors": {
+          "affected_file_count": 1,
+          "affected_file_percentage": 50.0,
+          "breaking_severity": "low",
+          "replacement_confidence": 0.0,
+          "version_distance_score": 0.0,
+          "repo_file_count": 2
+        }
+      },
+      {
+        "symbol": "requests.get",
+        "risk_score": 38,
+        "risk_level": "low",
+        "factors": {
+          "affected_file_count": 1,
+          "affected_file_percentage": 50.0,
+          "breaking_severity": "low",
+          "replacement_confidence": 1.0,
+          "version_distance_score": 0.0,
+          "repo_file_count": 2
+        }
+      },
+      {
+        "symbol": "requests.json",
+        "risk_score": 38,
+        "risk_level": "low",
+        "factors": {
+          "affected_file_count": 1,
+          "affected_file_percentage": 50.0,
+          "breaking_severity": "low",
+          "replacement_confidence": 1.0,
+          "version_distance_score": 0.0,
+          "repo_file_count": 2
+        }
+      }
+    ],
+    "recommended_actions": [
+      {
+        "symbol": "numpy.item",
+        "priority": "high",
+        "action_type": "migrate_api",
+        "description": "Migrate numpy.item to avoid potential breakage. Impacted files: 1",
+        "confidence": 0.0
+      },
+      {
+        "symbol": "pandas.DataFrame",
+        "priority": "medium",
+        "action_type": "migrate_api",
+        "description": "Migrate pandas.DataFrame to avoid potential breakage. Impacted files: 1",
+        "confidence": 1.0
+      },
+      {
+        "symbol": "pandas.describe",
+        "priority": "medium",
+        "action_type": "migrate_api",
+        "description": "Migrate pandas.describe to avoid potential breakage. Impacted files: 1",
+        "confidence": 1.0
+      },
+      {
+        "symbol": "numpy.array",
+        "priority": "medium",
+        "action_type": "migrate_api",
+        "description": "Migrate numpy.array to avoid potential breakage. Impacted files: 1",
+        "confidence": 1.0
+      },
+      {
+        "symbol": "requests.get",
+        "priority": "medium",
+        "action_type": "migrate_api",
+        "description": "Migrate requests.get to avoid potential breakage. Impacted files: 1",
+        "confidence": 1.0
+      },
+      {
+        "symbol": "requests.json",
+        "priority": "medium",
+        "action_type": "migrate_api",
+        "description": "Migrate requests.json with `requests.Response.json` to avoid potential breakage. Impacted files: 1",
+        "confidence": 1.0
+      }
+    ],
+    "compatibility_shims": ""
+  }
+}
