@@ -20,7 +20,7 @@
   "packages": {
     "numpy": {
       "version": "2.4.6",
-      "latest_version": "2.4.6",
+      "latest_version": "2.5.1",
       "type": "third-party",
       "status": "declared"
     },
@@ -37,5 +37,5 @@
       "status": "declared"
     }
   },
-  "analysis_id": "main_9d251cb_20260614T154134"
+  "analysis_id": "main_8093ef6_20260716T145247"
 }

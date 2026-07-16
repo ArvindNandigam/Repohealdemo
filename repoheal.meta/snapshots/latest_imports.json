@@ -231,13 +231,13 @@
         {
           "source": "attribute",
           "module": "numpy",
-          "symbol": "asscalar",
+          "symbol": "item",
           "alias": null,
           "root": "numpy",
           "is_local": false,
           "inferred": true,
           "module_path": "numpy",
-          "leaf_path": "numpy.asscalar",
+          "leaf_path": "numpy.item",
           "nodes": [
             {
               "path": "numpy",
@@ -248,8 +248,8 @@
               "relationship": null
             },
             {
-              "path": "numpy.asscalar",
-              "label": "asscalar",
+              "path": "numpy.item",
+              "label": "item",
               "kind": "Symbol",
               "depth": 1,
               "parent_path": "numpy",
@@ -296,5 +296,5 @@
     "total_imports": 3,
     "total_local_imports": 0
   },
-  "analysis_id": "main_9d251cb_20260614T154134"
+  "analysis_id": "main_8093ef6_20260716T145247"
 }

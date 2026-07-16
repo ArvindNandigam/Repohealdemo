@@ -8,7 +8,7 @@
   "last_analysis": null,
   "last_health_refresh": "2026-06-14T15:41:55.108399+00:00",
   "last_commit_analyzed": null,
-  "latest_analysis": "repoheal.meta/analyses/main/9d251cb/analysis_main_9d251cb_20260614T154134.json",
+  "latest_analysis": "repoheal.meta/analyses/main/8093ef6/analysis_main_8093ef6_20260716T145247.json",
   "latest_report": null,
   "latest_migration": "repoheal.meta/analyses/main/9d251cb/migration_report_main_9d251cb_20260614T154134.md",
   "analyses": [
@@ -19,6 +19,14 @@
       "commit": "9d251cb1e44dde41a6d4ddd0fecb6017167db4ee",
       "timestamp": "2026-06-14T15:41:34.373798+00:00",
       "path": "repoheal.meta/analyses/main/9d251cb/analysis_main_9d251cb_20260614T154134.json"
+    },
+    {
+      "analysis_id": "main_8093ef6_20260716T145247",
+      "snapshot_id": "ArvindNandigam_Repohealdemo_main_8093ef6",
+      "branch": "main",
+      "commit": "8093ef65e5c5cd3eabb93d8bb52f53eac27b0662",
+      "timestamp": "2026-07-16T14:52:47.189936+00:00",
+      "path": "repoheal.meta/analyses/main/8093ef6/analysis_main_8093ef6_20260716T145247.json"
     }
   ],
   "health_reports": [
@@ -98,15 +106,15 @@
     }
   ],
   "default_branch": "main",
-  "current_head": "9d251cb1e44dde41a6d4ddd0fecb6017167db4ee",
-  "last_analyzed_commit": "9d251cb1e44dde41a6d4ddd0fecb6017167db4ee",
-  "latest_analysis_id": "main_9d251cb_20260614T154134",
-  "latest_analysis_at": "2026-06-14T15:41:34.373798+00:00",
+  "current_head": "8093ef65e5c5cd3eabb93d8bb52f53eac27b0662",
+  "last_analyzed_commit": "8093ef65e5c5cd3eabb93d8bb52f53eac27b0662",
+  "latest_analysis_id": "main_8093ef6_20260716T145247",
+  "latest_analysis_at": "2026-07-16T14:52:47.189936+00:00",
   "latest_files": {
     "analysis": "repoheal.meta/snapshots/latest_analysis.json",
-    "analysis_record": "repoheal.meta/analyses/main/9d251cb/analysis_main_9d251cb_20260614T154134.json",
+    "analysis_record": "repoheal.meta/analyses/main/8093ef6/analysis_main_8093ef6_20260716T145247.json",
     "graph": "repoheal.meta/snapshots/latest_graph.json",
-    "graph_snapshot": "repoheal.meta/analyses/main/9d251cb/dependency_graph_main_9d251cb_20260614T154134.json",
+    "graph_snapshot": "repoheal.meta/analyses/main/8093ef6/dependency_graph_main_8093ef6_20260716T145247.json",
     "packages": "repoheal.meta/snapshots/latest_packages.json",
     "imports": "repoheal.meta/snapshots/latest_imports.json",
     "dependency_risk_report": "repoheal.meta/reports/dependency_risk_report.json"

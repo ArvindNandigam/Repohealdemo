@@ -1,9 +1,13 @@
 {
+  "analysis_id": "main_8093ef6_20260716T145247",
+  "repository_snapshot_id": "ArvindNandigam_Repohealdemo_main_8093ef6",
   "repository": "ArvindNandigam/Repohealdemo",
   "branch": "main",
   "commit_sha": "8093ef65e5c5cd3eabb93d8bb52f53eac27b0662",
-  "analyzed_at": "2026-07-16T14:52:47.189936+00:00",
-  "analysis_id": "main_8093ef6_20260716T145247",
+  "short_commit": "8093ef6",
+  "analysis_timestamp": "2026-07-16T14:52:47.189936+00:00",
+  "analysis_version": "1.0",
+  "schema_version": "2.0",
   "analysis": {
     "imports": {
       "files": {
@@ -728,5 +732,6 @@
     "commit_sha": "8093ef65e5c5cd3eabb93d8bb52f53eac27b0662",
     "analysis_id": "main_8093ef6_20260716T145247",
     "repository_snapshot_id": "ArvindNandigam_Repohealdemo_main_8093ef6"
-  }
+  },
+  "graph_path": null
 }
