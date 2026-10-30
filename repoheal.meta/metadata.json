@@ -14,7 +14,7 @@
     }
   ],
   "last_analysis": null,
-  "last_health_refresh": "2026-10-30T15:35:28.547952+00:00",
+  "last_health_refresh": "2026-10-30T15:37:32.140458+00:00",
   "last_commit_analyzed": null,
   "latest_analysis": "repoheal.meta/analyses/main/8093ef6/analysis_main_8093ef6_20261030T153714.json",
   "latest_report": null,
@@ -82,6 +82,11 @@
       "analysis_id": "main_8093ef6_20261030T153504",
       "timestamp": "2026-10-30T15:35:28.547952+00:00",
       "path": "repoheal.meta/analyses/main/8093ef6/health_report_main_8093ef6_20261030T153504.json"
+    },
+    {
+      "analysis_id": "main_8093ef6_20261030T153714",
+      "timestamp": "2026-10-30T15:37:32.140458+00:00",
+      "path": "repoheal.meta/analyses/main/8093ef6/health_report_main_8093ef6_20261030T153714.json"
     }
   ],
   "comparisons": [],
@@ -181,5 +186,5 @@
     "dependency_risk_report": "repoheal.meta/reports/dependency_risk_report.json"
   },
   "pull_requests": [],
-  "latest_health_report": "repoheal.meta/analyses/main/8093ef6/health_report_main_8093ef6_20261030T153504.json"
+  "latest_health_report": "repoheal.meta/analyses/main/8093ef6/health_report_main_8093ef6_20261030T153714.json"
 }
