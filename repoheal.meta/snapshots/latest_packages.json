@@ -20,13 +20,13 @@
   "packages": {
     "numpy": {
       "version": "2.4.6",
-      "latest_version": "2.5.1",
+      "latest_version": "2.5.4",
       "type": "third-party",
       "status": "declared"
     },
     "pandas": {
       "version": "3.0.3",
-      "latest_version": "3.0.3",
+      "latest_version": "3.1.0",
       "type": "third-party",
       "status": "declared"
     },
@@ -37,5 +37,5 @@
       "status": "declared"
     }
   },
-  "analysis_id": "main_8093ef6_20260716T165139"
+  "analysis_id": "main_8093ef6_20261030T153504"
 }
