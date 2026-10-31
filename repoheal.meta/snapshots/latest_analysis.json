@@ -2,8 +2,8 @@
   "repository": "ArvindNandigam/Repohealdemo",
   "branch": "main",
   "commit_sha": "8093ef65e5c5cd3eabb93d8bb52f53eac27b0662",
-  "analyzed_at": "2026-10-30T15:37:14.727039+00:00",
-  "analysis_id": "main_8093ef6_20261030T153714",
+  "analyzed_at": "2026-10-31T05:19:41.656190+00:00",
+  "analysis_id": "main_8093ef6_20261031T051941",
   "analysis": {
     "imports": {
       "files": {
@@ -726,7 +726,7 @@
     },
     "branch": "main",
     "commit_sha": "8093ef65e5c5cd3eabb93d8bb52f53eac27b0662",
-    "analysis_id": "main_8093ef6_20261030T153714",
+    "analysis_id": "main_8093ef6_20261031T051941",
     "repository_snapshot_id": "ArvindNandigam_Repohealdemo_main_8093ef6"
   }
 }
