@@ -6,7 +6,8 @@
       "normalized": [],
       "external": [],
       "local": [],
-      "hierarchical": []
+      "hierarchical": [],
+      "line_count": 12
     },
     "test_python.py": {
       "direct": [
@@ -286,7 +287,8 @@
             }
           ]
         }
-      ]
+      ],
+      "line_count": 33
     }
   },
   "summary": {
@@ -294,7 +296,8 @@
     "total_python_files": 2,
     "total_notebooks": 0,
     "total_imports": 3,
-    "total_local_imports": 0
+    "total_local_imports": 0,
+    "total_lines": 45
   },
-  "analysis_id": "main_8093ef6_20261031T054146"
+  "analysis_id": "main_8093ef6_20261031T055003"
 }
