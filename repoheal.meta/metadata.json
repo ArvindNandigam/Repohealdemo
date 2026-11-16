@@ -6,7 +6,7 @@
   "status": "active",
   "artifacts": [],
   "last_analysis": null,
-  "last_health_refresh": "2026-11-16T09:11:51.035368+00:00",
+  "last_health_refresh": "2026-11-16T09:12:05.971190+00:00",
   "last_commit_analyzed": null,
   "latest_analysis": "repoheal.meta/analyses/main/18bc249/analysis_main_18bc249_20261116T091140.json",
   "latest_report": null,
@@ -24,7 +24,7 @@
   "health_reports": [
     {
       "analysis_id": "main_18bc249_20261116T091140",
-      "timestamp": "2026-11-16T09:11:51.035368+00:00",
+      "timestamp": "2026-11-16T09:12:05.971190+00:00",
       "path": "repoheal.meta/analyses/main/18bc249/health_report_main_18bc249_20261116T091140.json"
     }
   ],
