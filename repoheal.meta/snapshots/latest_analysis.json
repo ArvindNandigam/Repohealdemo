@@ -1,12 +1,21 @@
 {
   "repository": "ArvindNandigam/Repohealdemo",
   "branch": "main",
-  "commit_sha": "18bc24981b23848a37f713ab526fd6346d3ccd53",
-  "analyzed_at": "2026-11-16T09:11:40.954323+00:00",
-  "analysis_id": "main_18bc249_20261116T091140",
+  "commit_sha": "55d9b5fdaddb5f4991a4c4ba8ff8e5b3c907ad99",
+  "analyzed_at": "2026-11-16T13:20:50.749157+00:00",
+  "analysis_id": "main_55d9b5f_20261116T132050",
   "analysis": {
     "imports": {
       "files": {
+        "repoheal_fixes.py": {
+          "direct": [],
+          "from": [],
+          "normalized": [],
+          "external": [],
+          "local": [],
+          "hierarchical": [],
+          "line_count": 12
+        },
         "test_python.py": {
           "direct": [
             "pandas",
@@ -230,13 +239,13 @@
             {
               "source": "attribute",
               "module": "numpy",
-              "symbol": "asscalar",
+              "symbol": "item",
               "alias": null,
               "root": "numpy",
               "is_local": false,
               "inferred": true,
               "module_path": "numpy",
-              "leaf_path": "numpy.asscalar",
+              "leaf_path": "numpy.item",
               "nodes": [
                 {
                   "path": "numpy",
@@ -247,8 +256,8 @@
                   "relationship": null
                 },
                 {
-                  "path": "numpy.asscalar",
-                  "label": "asscalar",
+                  "path": "numpy.item",
+                  "label": "item",
                   "kind": "Symbol",
                   "depth": 1,
                   "parent_path": "numpy",
@@ -286,56 +295,63 @@
               ]
             }
           ],
-          "line_count": 49
+          "line_count": 33
         }
       },
       "summary": {
-        "total_files": 1,
-        "total_python_files": 1,
+        "total_files": 2,
+        "total_python_files": 2,
         "total_notebooks": 0,
         "total_imports": 3,
         "total_local_imports": 0,
-        "total_lines": 49
+        "total_lines": 45
       }
     },
     "semantic_graph": {
       "files": {
+        "repoheal_fixes.py": {
+          "module_name": "repoheal_fixes",
+          "functions": [],
+          "classes": [],
+          "calls": [],
+          "apis": []
+        },
         "test_python.py": {
           "module_name": "test_python",
           "functions": [
             {
               "name": "__init__",
               "qualified_name": "__init__",
-              "line_start": 7,
-              "line_end": 8,
+              "line_start": 8,
+              "line_end": 9,
               "is_async": false
             },
             {
               "name": "load_data",
               "qualified_name": "load_data",
-              "line_start": 10,
-              "line_end": 25,
+              "line_start": 11,
+              "line_end": 15,
               "is_async": false
             },
             {
               "name": "process_data",
               "qualified_name": "process_data",
-              "line_start": 27,
-              "line_end": 28,
+              "line_start": 17,
+              "line_end": 18,
               "is_async": false
             },
             {
               "name": "calculate_statistics",
               "qualified_name": "calculate_statistics",
-              "line_start": 30,
-              "line_end": 37,
+              "line_start": 20,
+              "line_end": 24,
               "is_async": false
             },
             {
               "name": "fetch_remote_data",
               "qualified_name": "fetch_remote_data",
-              "line_start": 39,
-              "line_end": 44,
+              "line_start": 26,
+              "line_end": 28,
               "is_async": false
             }
           ],
@@ -344,7 +360,7 @@
               "name": "DataProcessor",
               "qualified_name": "DataProcessor",
               "line_start": 6,
-              "line_end": 44,
+              "line_end": 28,
               "bases": []
             }
           ],
@@ -352,7 +368,7 @@
             {
               "name": "pandas.DataFrame",
               "canonical_root": "pandas",
-              "line": 11,
+              "line": 12,
               "function": "load_data",
               "is_local": false,
               "is_external_api": true
@@ -360,7 +376,7 @@
             {
               "name": "pandas.DataFrame",
               "canonical_root": "pandas",
-              "line": 18,
+              "line": 13,
               "function": "load_data",
               "is_local": false,
               "is_external_api": true
@@ -368,7 +384,7 @@
             {
               "name": "pandas.append",
               "canonical_root": "pandas",
-              "line": 23,
+              "line": 14,
               "function": "load_data",
               "is_local": false,
               "is_external_api": true
@@ -376,7 +392,7 @@
             {
               "name": "self.process_data",
               "canonical_root": "self",
-              "line": 25,
+              "line": 15,
               "function": "load_data",
               "is_local": false,
               "is_external_api": true
@@ -384,7 +400,7 @@
             {
               "name": "self.calculate_statistics",
               "canonical_root": "self",
-              "line": 28,
+              "line": 18,
               "function": "process_data",
               "is_local": false,
               "is_external_api": true
@@ -392,7 +408,7 @@
             {
               "name": "print",
               "canonical_root": "print",
-              "line": 31,
+              "line": 21,
               "function": "calculate_statistics",
               "is_local": false,
               "is_external_api": true
@@ -400,7 +416,7 @@
             {
               "name": "pandas.describe",
               "canonical_root": "pandas",
-              "line": 31,
+              "line": 21,
               "function": "calculate_statistics",
               "is_local": false,
               "is_external_api": true
@@ -408,7 +424,7 @@
             {
               "name": "numpy.array",
               "canonical_root": "numpy",
-              "line": 33,
+              "line": 22,
               "function": "calculate_statistics",
               "is_local": false,
               "is_external_api": true
@@ -416,15 +432,15 @@
             {
               "name": "print",
               "canonical_root": "print",
-              "line": 35,
+              "line": 23,
               "function": "calculate_statistics",
               "is_local": false,
               "is_external_api": true
             },
             {
-              "name": "numpy.asscalar",
+              "name": "numpy.item",
               "canonical_root": "numpy",
-              "line": 35,
+              "line": 23,
               "function": "calculate_statistics",
               "is_local": false,
               "is_external_api": true
@@ -432,7 +448,7 @@
             {
               "name": "self.fetch_remote_data",
               "canonical_root": "self",
-              "line": 37,
+              "line": 24,
               "function": "calculate_statistics",
               "is_local": false,
               "is_external_api": true
@@ -440,7 +456,7 @@
             {
               "name": "requests.get",
               "canonical_root": "requests",
-              "line": 40,
+              "line": 27,
               "function": "fetch_remote_data",
               "is_local": false,
               "is_external_api": true
@@ -448,7 +464,7 @@
             {
               "name": "print",
               "canonical_root": "print",
-              "line": 44,
+              "line": 28,
               "function": "fetch_remote_data",
               "is_local": false,
               "is_external_api": true
@@ -456,7 +472,7 @@
             {
               "name": "requests.json",
               "canonical_root": "requests",
-              "line": 44,
+              "line": 28,
               "function": "fetch_remote_data",
               "is_local": false,
               "is_external_api": true
@@ -464,7 +480,7 @@
             {
               "name": "DataProcessor",
               "canonical_root": "dataprocessor",
-              "line": 48,
+              "line": 32,
               "function": null,
               "is_local": false,
               "is_external_api": true
@@ -472,7 +488,7 @@
             {
               "name": "processor.load_data",
               "canonical_root": "processor",
-              "line": 49,
+              "line": 33,
               "function": null,
               "is_local": false,
               "is_external_api": true
@@ -482,105 +498,105 @@
             {
               "name": "pandas.DataFrame",
               "package": "pandas",
-              "line": 11,
+              "line": 12,
               "function": "load_data"
             },
             {
               "name": "pandas.DataFrame",
               "package": "pandas",
-              "line": 18,
+              "line": 13,
               "function": "load_data"
             },
             {
               "name": "pandas.append",
               "package": "pandas",
-              "line": 23,
+              "line": 14,
               "function": "load_data"
             },
             {
               "name": "self.process_data",
               "package": "self",
-              "line": 25,
+              "line": 15,
               "function": "load_data"
             },
             {
               "name": "self.calculate_statistics",
               "package": "self",
-              "line": 28,
+              "line": 18,
               "function": "process_data"
             },
             {
               "name": "print",
               "package": "print",
-              "line": 31,
+              "line": 21,
               "function": "calculate_statistics"
             },
             {
               "name": "pandas.describe",
               "package": "pandas",
-              "line": 31,
+              "line": 21,
               "function": "calculate_statistics"
             },
             {
               "name": "numpy.array",
               "package": "numpy",
-              "line": 33,
+              "line": 22,
               "function": "calculate_statistics"
             },
             {
               "name": "print",
               "package": "print",
-              "line": 35,
+              "line": 23,
               "function": "calculate_statistics"
             },
             {
-              "name": "numpy.asscalar",
+              "name": "numpy.item",
               "package": "numpy",
-              "line": 35,
+              "line": 23,
               "function": "calculate_statistics"
             },
             {
               "name": "self.fetch_remote_data",
               "package": "self",
-              "line": 37,
+              "line": 24,
               "function": "calculate_statistics"
             },
             {
               "name": "requests.get",
               "package": "requests",
-              "line": 40,
+              "line": 27,
               "function": "fetch_remote_data"
             },
             {
               "name": "print",
               "package": "print",
-              "line": 44,
+              "line": 28,
               "function": "fetch_remote_data"
             },
             {
               "name": "requests.json",
               "package": "requests",
-              "line": 44,
+              "line": 28,
               "function": "fetch_remote_data"
             },
             {
               "name": "DataProcessor",
               "package": "dataprocessor",
-              "line": 48,
+              "line": 32,
               "function": null
             },
             {
               "name": "processor.load_data",
               "package": "processor",
-              "line": 49,
+              "line": 33,
               "function": null
             }
           ]
         }
       },
       "summary": {
-        "total_files": 1,
-        "total_lines": 49,
+        "total_files": 2,
+        "total_lines": 45,
         "total_functions": 5,
         "total_classes": 1,
         "total_calls": 16,
@@ -590,17 +606,17 @@
     "dependencies": {
       "declared": {
         "pandas": {
-          "version": "1.3.5",
+          "version": "3.0.3",
           "specifier": "==",
           "source": "requirements.txt"
         },
         "requests": {
-          "version": "2.25.1",
+          "version": "2.34.2",
           "specifier": "==",
           "source": "requirements.txt"
         },
         "numpy": {
-          "version": "1.21.0",
+          "version": "2.4.6",
           "specifier": "==",
           "source": "requirements.txt"
         }
@@ -609,19 +625,19 @@
     },
     "dependency_graph": {
       "numpy": {
-        "version": "1.21.0",
+        "version": "2.4.6",
         "latest_version": "2.5.5",
         "type": "third-party",
         "status": "declared"
       },
       "pandas": {
-        "version": "1.3.5",
+        "version": "3.0.3",
         "latest_version": "3.1.1",
         "type": "third-party",
         "status": "declared"
       },
       "requests": {
-        "version": "2.25.1",
+        "version": "2.34.2",
         "latest_version": "2.34.2",
         "type": "third-party",
         "status": "declared"
@@ -629,7 +645,7 @@
     },
     "fingerprints": {
       "pandas": {
-        "version": "1.3.5",
+        "version": "3.0.3",
         "symbols": [
           "pandas.DataFrame",
           "pandas.DataFrame.append",
@@ -666,18 +682,18 @@
         ]
       },
       "numpy": {
-        "version": "1.21.0",
+        "version": "2.4.6",
         "symbols": [
           "numpy.array",
-          "numpy.asscalar"
+          "numpy.item"
         ],
         "raw_symbols": [
           "numpy.array",
-          "numpy.asscalar"
+          "numpy.item"
         ]
       },
       "requests": {
-        "version": "2.25.1",
+        "version": "2.34.2",
         "symbols": [
           "requests.get",
           "requests.json"
@@ -714,8 +730,8 @@
       "unused_count": 0
     },
     "branch": "main",
-    "commit_sha": "18bc24981b23848a37f713ab526fd6346d3ccd53",
-    "analysis_id": "main_18bc249_20261116T091140",
-    "repository_snapshot_id": "ArvindNandigam_Repohealdemo_main_18bc249"
+    "commit_sha": "55d9b5fdaddb5f4991a4c4ba8ff8e5b3c907ad99",
+    "analysis_id": "main_55d9b5f_20261116T132050",
+    "repository_snapshot_id": "ArvindNandigam_Repohealdemo_main_55d9b5f"
   }
 }

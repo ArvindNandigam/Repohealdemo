@@ -30,7 +30,7 @@
   "last_analysis": null,
   "last_health_refresh": "2026-11-16T09:23:11.463424+00:00",
   "last_commit_analyzed": null,
-  "latest_analysis": "repoheal.meta/analyses/main/18bc249/analysis_main_18bc249_20261116T091140.json",
+  "latest_analysis": "repoheal.meta/analyses/main/55d9b5f/analysis_main_55d9b5f_20261116T132050.json",
   "latest_report": null,
   "latest_migration": "repoheal.meta/analyses/main/18bc249/migration_report_main_18bc249_20261116T092253.md",
   "analyses": [
@@ -41,6 +41,14 @@
       "commit": "18bc24981b23848a37f713ab526fd6346d3ccd53",
       "timestamp": "2026-11-16T09:11:40.954323+00:00",
       "path": "repoheal.meta/analyses/main/18bc249/analysis_main_18bc249_20261116T091140.json"
+    },
+    {
+      "analysis_id": "main_55d9b5f_20261116T132050",
+      "snapshot_id": "ArvindNandigam_Repohealdemo_main_55d9b5f",
+      "branch": "main",
+      "commit": "55d9b5fdaddb5f4991a4c4ba8ff8e5b3c907ad99",
+      "timestamp": "2026-11-16T13:20:50.749157+00:00",
+      "path": "repoheal.meta/analyses/main/55d9b5f/analysis_main_55d9b5f_20261116T132050.json"
     }
   ],
   "health_reports": [
@@ -88,16 +96,16 @@
     }
   ],
   "default_branch": "main",
-  "current_head": "18bc24981b23848a37f713ab526fd6346d3ccd53",
-  "last_analyzed_commit": "18bc24981b23848a37f713ab526fd6346d3ccd53",
-  "latest_analysis_id": "main_18bc249_20261116T091140",
-  "latest_analysis_at": "2026-11-16T09:11:40.954323+00:00",
+  "current_head": "55d9b5fdaddb5f4991a4c4ba8ff8e5b3c907ad99",
+  "last_analyzed_commit": "55d9b5fdaddb5f4991a4c4ba8ff8e5b3c907ad99",
+  "latest_analysis_id": "main_55d9b5f_20261116T132050",
+  "latest_analysis_at": "2026-11-16T13:20:50.749157+00:00",
   "latest_files": {
     "analysis": "repoheal.meta/snapshots/latest_analysis.json",
-    "analysis_record": "repoheal.meta/analyses/main/18bc249/analysis_main_18bc249_20261116T091140.json",
+    "analysis_record": "repoheal.meta/analyses/main/55d9b5f/analysis_main_55d9b5f_20261116T132050.json",
     "graph": "repoheal.meta/snapshots/latest_graph.json",
-    "graph_snapshot": "repoheal.meta/snapshots/data_ArvindNandigam_Repohealdemo_18bc249_main_18bc249_20261116T091140.json",
-    "analysis_snapshot": "repoheal.meta/snapshots/analysis_main_18bc249_20261116T091140.json",
+    "graph_snapshot": "repoheal.meta/snapshots/data_ArvindNandigam_Repohealdemo_55d9b5f_main_55d9b5f_20261116T132050.json",
+    "analysis_snapshot": "repoheal.meta/snapshots/analysis_main_55d9b5f_20261116T132050.json",
     "packages": "repoheal.meta/snapshots/latest_packages.json",
     "imports": "repoheal.meta/snapshots/latest_imports.json",
     "dependency_risk_report": "repoheal.meta/reports/dependency_risk_report.json"

@@ -1,5 +1,14 @@
 {
   "files": {
+    "repoheal_fixes.py": {
+      "direct": [],
+      "from": [],
+      "normalized": [],
+      "external": [],
+      "local": [],
+      "hierarchical": [],
+      "line_count": 12
+    },
     "test_python.py": {
       "direct": [
         "pandas",
@@ -223,13 +232,13 @@
         {
           "source": "attribute",
           "module": "numpy",
-          "symbol": "asscalar",
+          "symbol": "item",
           "alias": null,
           "root": "numpy",
           "is_local": false,
           "inferred": true,
           "module_path": "numpy",
-          "leaf_path": "numpy.asscalar",
+          "leaf_path": "numpy.item",
           "nodes": [
             {
               "path": "numpy",
@@ -240,8 +249,8 @@
               "relationship": null
             },
             {
-              "path": "numpy.asscalar",
-              "label": "asscalar",
+              "path": "numpy.item",
+              "label": "item",
               "kind": "Symbol",
               "depth": 1,
               "parent_path": "numpy",
@@ -279,16 +288,16 @@
           ]
         }
       ],
-      "line_count": 49
+      "line_count": 33
     }
   },
   "summary": {
-    "total_files": 1,
-    "total_python_files": 1,
+    "total_files": 2,
+    "total_python_files": 2,
     "total_notebooks": 0,
     "total_imports": 3,
     "total_local_imports": 0,
-    "total_lines": 49
+    "total_lines": 45
   },
-  "analysis_id": "main_18bc249_20261116T091140"
+  "analysis_id": "main_55d9b5f_20261116T132050"
 }
