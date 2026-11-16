@@ -25,14 +25,21 @@
       "report": "repoheal.meta/analyses/main/18bc249/migration_report_main_18bc249_20261116T092253.md",
       "snapshot": "repoheal.meta/snapshots/analysis_main_18bc249_20261116T092253.json",
       "created_at": "2026-11-16T09:23:11.463424+00:00"
+    },
+    {
+      "analysis_id": "main_55d9b5f_20261116T132050",
+      "document": "repoheal.meta/migrations/migration_20261116_132122.md",
+      "report": "repoheal.meta/analyses/main/55d9b5f/migration_report_main_55d9b5f_20261116T132050.md",
+      "snapshot": "repoheal.meta/snapshots/analysis_main_55d9b5f_20261116T132050.json",
+      "created_at": "2026-11-16T13:21:23.800361+00:00"
     }
   ],
   "last_analysis": null,
-  "last_health_refresh": "2026-11-16T13:21:16.803764+00:00",
+  "last_health_refresh": "2026-11-16T13:21:23.800361+00:00",
   "last_commit_analyzed": null,
   "latest_analysis": "repoheal.meta/analyses/main/55d9b5f/analysis_main_55d9b5f_20261116T132050.json",
   "latest_report": null,
-  "latest_migration": "repoheal.meta/analyses/main/18bc249/migration_report_main_18bc249_20261116T092253.md",
+  "latest_migration": "repoheal.meta/analyses/main/55d9b5f/migration_report_main_55d9b5f_20261116T132050.md",
   "analyses": [
     {
       "analysis_id": "main_18bc249_20261116T091140",
@@ -69,7 +76,7 @@
     },
     {
       "analysis_id": "main_55d9b5f_20261116T132050",
-      "timestamp": "2026-11-16T13:21:16.803764+00:00",
+      "timestamp": "2026-11-16T13:21:23.800361+00:00",
       "path": "repoheal.meta/analyses/main/55d9b5f/health_report_main_55d9b5f_20261116T132050.json"
     }
   ],
@@ -98,6 +105,14 @@
       "path": "repoheal.meta/analyses/main/18bc249/migration_report_main_18bc249_20261116T092253.md",
       "risk_score": 80,
       "overall_risk_level": "high"
+    },
+    {
+      "migration_id": "mig_main_55d9b5f_20261116T132050",
+      "analysis_id": "main_55d9b5f_20261116T132050",
+      "timestamp": "2026-11-16T13:21:23.800361+00:00",
+      "path": "repoheal.meta/analyses/main/55d9b5f/migration_report_main_55d9b5f_20261116T132050.md",
+      "risk_score": 64,
+      "overall_risk_level": "medium"
     }
   ],
   "default_branch": "main",
