@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "repository": "ArvindNandigam/Repohealdemo",
   "branch": "repoheal.meta",
   "created_at": "2026-11-16T09:10:41.753228+00:00",
@@ -8,10 +8,36 @@
   "last_analysis": null,
   "last_health_refresh": null,
   "last_commit_analyzed": null,
-  "latest_analysis": null,
+  "latest_analysis": "repoheal.meta/analyses/main/18bc249/analysis_main_18bc249_20261116T091140.json",
   "latest_report": null,
   "latest_migration": null,
-  "analyses": {},
-  "health_reports": {},
-  "comparisons": []
+  "analyses": [
+    {
+      "analysis_id": "main_18bc249_20261116T091140",
+      "snapshot_id": "ArvindNandigam_Repohealdemo_main_18bc249",
+      "branch": "main",
+      "commit": "18bc24981b23848a37f713ab526fd6346d3ccd53",
+      "timestamp": "2026-11-16T09:11:40.954323+00:00",
+      "path": "repoheal.meta/analyses/main/18bc249/analysis_main_18bc249_20261116T091140.json"
+    }
+  ],
+  "health_reports": [],
+  "comparisons": [],
+  "migration_reports": [],
+  "default_branch": "main",
+  "current_head": "18bc24981b23848a37f713ab526fd6346d3ccd53",
+  "last_analyzed_commit": "18bc24981b23848a37f713ab526fd6346d3ccd53",
+  "latest_analysis_id": "main_18bc249_20261116T091140",
+  "latest_analysis_at": "2026-11-16T09:11:40.954323+00:00",
+  "latest_files": {
+    "analysis": "repoheal.meta/snapshots/latest_analysis.json",
+    "analysis_record": "repoheal.meta/analyses/main/18bc249/analysis_main_18bc249_20261116T091140.json",
+    "graph": "repoheal.meta/snapshots/latest_graph.json",
+    "graph_snapshot": "repoheal.meta/snapshots/data_ArvindNandigam_Repohealdemo_18bc249_main_18bc249_20261116T091140.json",
+    "analysis_snapshot": "repoheal.meta/snapshots/analysis_main_18bc249_20261116T091140.json",
+    "packages": "repoheal.meta/snapshots/latest_packages.json",
+    "imports": "repoheal.meta/snapshots/latest_imports.json",
+    "dependency_risk_report": "repoheal.meta/reports/dependency_risk_report.json"
+  },
+  "pull_requests": []
 }
